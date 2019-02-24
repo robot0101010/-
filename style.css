@@ -15,6 +15,7 @@ a{
 	background-color: #282222;
 	line-height: 15px;
      z-index: 100;
+     text-align: center;
 	
 	
 }
@@ -289,13 +290,9 @@ height: 25px;
 
 @media screen and (max-width: 800px) {
 	.nav li, .s svg{
-	display: block;
-	float: center;
+	
 	border: 1px solid #F9C9C9;
-	margin: 0;
-	padding: 0;
-	padding-top: 10px;
-	background: #282424;
+	
 
 }
 
