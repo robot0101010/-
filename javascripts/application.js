@@ -1,6 +1,4 @@
-
 $(document).ready(function(){
-  $(document).ready(function(){
 
 var $homeSlider = $(".home-slider");
 
@@ -13,5 +11,3 @@ smartSpeed: 1000
 });
 
 })
-
-}
