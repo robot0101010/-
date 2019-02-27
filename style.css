@@ -26,13 +26,17 @@ a{
 
 
 
-.nav {width: 100%;
-	height: 10%;
-	position: fixed;
-	background-color: #282222;
-	line-height: 15px;
-     z-index: 100;
-     text-align: center;
+.nav {flex-direction: row;
+display: flex;
+width: 100%;
+justify-content: center;
+height: 6%;
+margin: 0 auto;
+position: fixed;
+background-color: #282222;
+line-height: 15px;
+z-index: 100;
+text-align: center;
 
 
 }
@@ -151,7 +155,7 @@ height: 25px;
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 10%;
 
 }
 .title_h1 h1{
@@ -217,6 +221,7 @@ height: 25px;
 .title_service{
 	text-align: center;
 	font-size: 1.9em;
+	width: 48vw;
 
  }
  .title_service svg{ width: 23px;
@@ -589,7 +594,7 @@ width:18%;
      }
  }
 @media ( max-width: 500px ){
-	.ul_element li{
+	.ul_element {
 		display: none;}
 		#pull, {
 			display: block;
