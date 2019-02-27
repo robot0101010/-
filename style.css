@@ -11,7 +11,7 @@ a{
 	text-decoration: none;
 }
 .container{
-	
+
 
 }
 
@@ -33,13 +33,14 @@ a{
 	line-height: 15px;
      z-index: 100;
      text-align: center;
-	
-	
+
+
 }
 .nav li, s{
 	display: inline-block;
 	margin-left: 4%;
 	padding-bottom: 15px;
+	margin: 5px;
 }
 .nav a{
 	color:#FFFFFF;
@@ -52,10 +53,10 @@ margin-top:16px;  }
 .in1 a{ margin-left: 2%; }
 .innnn,s {
 	display: inline-block;
-	 
+
 
 }
-.ssssss{ display: flex; 
+.ssssss{ display: flex;
 margin-top: 10px;}
 
 .word_1{
@@ -79,7 +80,7 @@ margin-top: 10px;}
  	height: 20px;
  	float: left;
  }
-.nav svg{ 
+.nav svg{
 width: 25px;
 height: 25px;
  }
@@ -106,30 +107,30 @@ height: 25px;
 .s svg{padding: 2px;
 	}
 .s svg:hover{
-	
+
 	transform: scale(0.8);
 }
  #pull {
- 
+
  display: none;
-   
+
    }
 
 
 /* Стили для видеофона */
 
 #video-bg {
-	position: absolute ;
+	position: relative ;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	overflow: hidden;
 	background-size: cover;
-	
+
 	width:100%;
      height:600px;
-	
+
 
 }
 
@@ -137,21 +138,21 @@ height: 25px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	min-width: 100%; 
+	min-width: 100%;
 	min-height: 100%%;
-	
-	
+
+
 }
 
 .title_h1 {
-	position: relative;
+	position: absolute;
 	top:10%;
 	z-index: 99;
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	padding-top: 20%; 
-	
+	padding-top: 20%;
+
 }
 .title_h1 h1{
 	color: #FFFFFF;
@@ -188,7 +189,7 @@ height: 25px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  background:rgba(100%, 97%, 100%, 0.4); 
+  background:rgba(100%, 97%, 100%, 0.4);
   border:2px solid #FFFFFF;
   border-radius: 15px;
   width: 200px;
@@ -213,7 +214,7 @@ height: 25px;
 	}
 }
 
-.title_service{ 
+.title_service{
 	text-align: center;
 	font-size: 1.9em;
 
@@ -223,7 +224,7 @@ height: 25px;
  	border-radius: 4px;
 }
 .title_service span{
-	border-bottom: 2px solid #BB2B2B; 
+	border-bottom: 2px solid #BB2B2B;
 	padding-top: 20px;
 }
 
@@ -240,7 +241,7 @@ height: 25px;
 }
 
 ul .list_service{
-	height: 100%;
+
 }
 
 
@@ -253,12 +254,12 @@ ul .list_service{
 	height: 100%;
 
 }
-} 
+}
 .list_service li{
 	margin-top: 30px;
 	margin-left: 9%;
 }
-.list_service a { 
+.list_service a {
 	text-align: center;
 	color:#474141;
 
@@ -267,7 +268,7 @@ ul .list_service{
 
 
 
-.list_service img { 
+.list_service img {
 	width: 203px;
 	height: 203px;
 	border-radius:50%;
@@ -275,12 +276,12 @@ ul .list_service{
 	object-fit: cover;
 	margin-left: 10%;
 	margin-right: 10%;
-	
+
 }
 .list_service img:hover {
 	border: #996262 solid 1.5px;
 
-	
+
 
 }
 .list_service li:hover{
@@ -310,7 +311,7 @@ border-radius: 5px;
 .item img{
 
   flex: 1 1 100px;
-  
+
   height: 300px;
   width: auto;
 }
@@ -322,14 +323,14 @@ border-radius: 5px;
 	font-size: 2.1em;
 	padding-top: 4vw;
 	color:#FFFFFF;
-	
+
 }
 .home-demo img{
   text-align: center;
   padding: 5rem 0;
   margin: 0;
   margin-top: 5%;
- 
+
   font-weight: 300;
 }
 .home-slider {
@@ -352,8 +353,8 @@ border-radius: 5px;
 }
 .workers{
 	width: 100%;
-	
-	
+
+
 }
 .title_workers {
 	margin-left: 25%;
@@ -386,8 +387,8 @@ margin-left: 7%;
 	border-radius: 50%;
 	width: 22vw;
 	height: 22vw;
- 
-	
+
+
 }
 
 .workers_element li{
@@ -430,7 +431,7 @@ margin-left: 7%;
 }
 .our_client ul li{
 	display: flex;
-	
+
 	flex-wrap: nowrap;
 	align-items: flex-start;
 	justify-content: center;
@@ -439,7 +440,7 @@ margin-left: 7%;
 
 
 
-	
+
 }
 .our_client li img{
 	max-width: 14vw;
@@ -475,7 +476,7 @@ width: 27%;margin: 15px;
 
 	background-size: cover;
 	width: 100%;
-	
+
 
 }
 .information{
@@ -503,8 +504,8 @@ width: 27%;margin: 15px;
 width:18%;
 }
 .inp input{
-	
-	
+
+
 }
 .input_element{
 	height: 8vw;
@@ -519,7 +520,7 @@ width:18%;
 	color:#FFFFFF;
 }
 .mail_element{
-	
+
 }
 
 
@@ -587,16 +588,16 @@ width:18%;
          object-fit: cover;
      }
  }
+@media ( max-width: 500px ){
+	.ul_element li{
+		display: none;}
+		#pull, {
+			display: block;
 
+		width: auto;}
 
-@media sqreen and( max-width: 700px;){
-	.ul_element{
-		display: none;
-	}
-     #pull{ display: inline-block;
 }
 
-}
 
 
 
@@ -612,13 +613,7 @@ width:18%;
 
 
 
-@media screen and (max-width: 800px) {
-	.nav li, .s svg{
-	height: 24px;
-	border: 0;
-	
 
- }
 }
 
 @media screen and (max-width: 800px) {
@@ -627,17 +622,7 @@ width:18%;
 	text-align: center;
 	display: block;
 	float: cente
-	
+
 
  }
-}
-
-
-
-
-
-
-
-
-
-
+};
