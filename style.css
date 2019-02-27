@@ -10,6 +10,21 @@ font-family: 'Libre Baskerville', serif;
 a{
 	text-decoration: none;
 }
+.container{
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .nav {width: 100%;
 	height: 10%;
@@ -23,7 +38,7 @@ a{
 }
 .nav li, s{
 	display: inline-block;
-	margin-left: 2%;
+	margin-left: 4%;
 	padding-bottom: 15px;
 }
 .nav a{
@@ -32,7 +47,16 @@ a{
 text-align: center;
 
 }
+.nav ul{ width: 50%; margin: 2%;
+margin-top:16px;  }
 .in1 a{ margin-left: 2%; }
+.innnn,s {
+	display: inline-block;
+	 
+
+}
+.ssssss{ display: flex; 
+margin-top: 10px;}
 
 .word_1{
 	color: #BC0303;
@@ -86,8 +110,9 @@ height: 25px;
 	transform: scale(0.8);
 }
  #pull {
-
-    display: none;
+ 
+ display: none;
+   
    }
 
 
@@ -100,9 +125,12 @@ height: 25px;
 	bottom: 0;
 	left: 0;
 	overflow: hidden;
-	z-index: -10;
-	background: url(bg/daisy-stock-poster.jpg) no-repeat #94a233;
 	background-size: cover;
+	
+	width:100%;
+     height:600px;
+	
+
 }
 
 #video-bg > video {
@@ -111,8 +139,8 @@ height: 25px;
 	left: 0;
 	min-width: 100%; 
 	min-height: 100%%;
-	width: auto;
-	height: 500PX; 
+	
+	
 }
 
 .title_h1 {
@@ -177,8 +205,14 @@ height: 25px;
 
 
 .block_1{
-	 margin-top:240px; width: 100%; height: 500px;background: #FFFFFF;
+	  width: 100%; height:auto; ;background: #FFFFFF;
 }
+@media (min-width: 600px) {
+	.block_1 {
+		height: 100%;
+	}
+}
+
 .title_service{ 
 	text-align: center;
 	font-size: 1.9em;
@@ -194,20 +228,35 @@ height: 25px;
 }
 
 .list_service{
+	width: 100%;
+	height: auto;
+}
+
+.list_service {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: stretch;
+}
+
+ul .list_service{
+	height: 100%;
+}
 
 
+
+
+
+@media (max-width: 600px;){
+.list_service ul{
+	display: block;
+	height: 100%;
 
 }
+} 
 .list_service li{
 	margin-top: 30px;
 	margin-left: 9%;
-	
-	
-	
 }
 .list_service a { 
 	text-align: center;
@@ -244,36 +293,34 @@ height: 25px;
 
 }
 
-.home-demo{
-	 padding-top: 13%;
-	 height: 48.5vw;
-}
+
 .home-demo svg{
 
 border-radius: 5px;
 	height: 24px;
 	width: 24px;
 }
-	 
 
 
+.home-demo {
+  flex: 1 1 100px;
+  width: auto;
 
-.home-demo .item img{
+}
+.item img{
 
   flex: 1 1 100px;
-  padding: 10px;
+  
   height: 300px;
   width: auto;
 }
-.home-demo{
-	background-image: url(img/wood_texture3837.jpg);
-}
+
 .item img{
 	display: block;
 }
 .home-demo h2{ text-align: center;
 	font-size: 2.1em;
-	margin-top: -18px;
+	padding-top: 4vw;
 	color:#FFFFFF;
 	
 }
@@ -292,11 +339,11 @@ border-radius: 5px;
 }
 .service_button{
 	text-align: center;
-    background: rgba(100%, 97%, 100%, 0.4);
+    background: rgba(100%, 97%, 100%, 0.5);
 	border:1.5px solid #FFFFFF;
 	width: 17vw;
 	height: 4vw;
-	margin-left: 45%;
+	margin-left: 40%;
 	border-radius: 20px;
 }
 .service_button a{
@@ -306,7 +353,7 @@ border-radius: 5px;
 .workers{
 	width: 100%;
 	height: 43vw;
-	margin-top:77vw;
+	
 }
 .title_workers {
 	margin-left: 25%;
@@ -398,12 +445,82 @@ margin-left: 7%;
 	max-width: 14vw;
 	height: auto;
 }
+.our_advantage{
+	width: 100%;
+	height: 30vw;
+}
+.our_advantage svg{
+	width: 23px;
+	height: 23px;
+	border-radius: 5px;
+}
+.our_advantage h2{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+}
+.our_advantage li{text-align: center;
+width: 27%;margin: 15px;
+}
+
+.our_advantage ul{
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+
+}
+.header_element{
+	background-image: url(img/vostochnom-stile-kartinka.jpg);
+
+	background-size: cover;
+	width: 100%;
+	height: 40vw;
+
+}
+.information{
+	text-align: center;
 
 
+}
+.information h2{
+	color: #FFFFFF;
+	margin: 20px;
+	font-size: 2.5em;
 
 
+}
+.information h3{
+	color: #FFFFFF;
+	margin: 10px;
 
 
+}
+.inpas{ display: block;
+	padding-left: 41%;
+	padding-right: 41%;
+
+width:18%;
+}
+.inp input{
+	
+	
+}
+.input_element{
+	height: 8vw;
+	 background: rgb(2%, 0%, 0%, 0.5);
+	 color:#FFFFFF;
+	 margin-top: 10px;
+
+}
+.input_element_1{
+	border: 1px solid #D15A5A;
+	background: rgb(2%, 0%, 0%, 0.5);
+	color:#FFFFFF;
+}
+.mail_element{
+	
+}
 
 
 
@@ -470,6 +587,16 @@ margin-left: 7%;
          object-fit: cover;
      }
  }
+
+
+@media sqreen and( max-width: 700px;){
+	.ul_element{
+		display: none;
+	}
+     #pull{ display: inline-block;
+}
+
+}
 
 
 
