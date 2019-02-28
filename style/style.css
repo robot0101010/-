@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+font-family: 'Libre Baskerville', serif;
+}
+
+a{
+	text-decoration: none;
+}
+.container{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {flex-direction: row;
+display: flex;
+width: 100%;
+justify-content: center;
+height: 6%;
+margin: 0 auto;
+position: fixed;
+background-color: #282222;
+line-height: 15px;
+z-index: 100;
+text-align: center;
+
+
+
+}
+.nav li, s{
+	display: inline-block;
+	margin-left: 4%;
+	padding-bottom: 15px;
+	margin: 5px;
+}
+.nav a{
+	color:#FFFFFF;
+	width: 100px;
+text-align: center;
+
+}
+.nav ul{ width: 50%; margin: 2%;
+margin-top:16px;  }
+.in1 a{ margin-left: 2%; }
+.innnn,s {
+	display: inline-block;
+
+
+}
+.ssssss{ display: flex;
+margin-top: 10px;}
+
+.word_1{
+	color: #BC0303;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-right: 2%;
+}
+.word_2{
+	color: #FFFFFF;
+	font-size: 1.3em;
+	padding-left:;
+	font-weight: bold;
+}
+.word_2, .word_1 {
+margin: 2%;;
+}
+
+
+.img1{
+ 	height: 20px;
+ 	float: left;
+ }
+.nav svg{
+width: 25px;
+height: 25px;
+ }
+
+ .img1{
+ 	height: 100%;
+ 	margin-right: -15vw;
+ }
+ .svf1{
+ 	width: 25px;
+height: 25px;
+ }
+ .nmber{  font-size: 1.3em;
+ 	color:#FFFFFF;}
+ .nav li a:hover{
+	color:#BC0303;
+
+	border-bottom: 2px solid #C12A2A;
+	padding-bottom: 3px;
+}
+
+
+
+.s svg{padding: 2px;
+	}
+.s svg:hover{
+
+	transform: scale(0.8);
+}
+ #pull {
+
+ display: none;
+
+   }
+
+
+/* Стили для видеофона */
+
+#video-bg {
+	position: relative ;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	background-size: cover;
+
+	width:100%;
+     height:600px;
+
+
+}
+
+#video-bg > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%%;
+
+
+}
+
+.title_h1 {
+	position: absolute;
+	top:10%;
+	z-index: 99;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 10%;
+
+}
+.title_h1 h1{
+	color: #FFFFFF;
+	font-size: 3em;
+	font-weight: bold;
+}
+.title_h1 h2{
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: bold;
+}
+.title_h1 li{
+	z-index: 100;
+	display: inline-block;
+	padding-top: 4%
+
+}
+.li_1 {padding-left: 0%;}
+.li_2{
+	padding-left:  20%;
+}
+.li_1 a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #D54D4D;
+  border-radius: 15px;
+  width: 200px;
+  color:#FFFFFF;
+}
+.li_2 a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background:rgba(100%, 97%, 100%, 0.4);
+  border:2px solid #FFFFFF;
+  border-radius: 15px;
+  width: 200px;
+  color:#FFFFFF;
+}
+.li_1 a:hover{
+	background: #32A13F;
+	transition: 0.2s;
+}
+.li_2 a:hover{
+	background: #D5CE11;
+	transition: 0.2s;
+}
+
+
+.block_1{
+	  width: 100%; height:auto; ;background: #FFFFFF;
+}
+@media (min-width: 600px) {
+	.block_1 {
+		height: 100%;
+	}
+}
+
+.title_service{
+	text-align: center;
+	font-size: 1.9em;
+	width: 48vw;
+	margin: 0 auto;
+
+ }
+ .title_service svg{ width: 23px;
+ 	height: 23px;
+ 	border-radius: 4px;
+}
+.title_service span{
+	border-bottom: 2px solid #BB2B2B;
+	padding-top: 20px;
+}
+
+.list_service{
+	width: 100%;
+	height: auto;
+}
+
+.list_service {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+ul .list_service{
+
+}
+
+
+
+
+
+@media (max-width: 600px;){
+.list_service ul{
+	display: block;
+	height: 100%;
+
+}
+}
+.list_service li{
+	margin-top: 30px;
+	margin-left: 9%;
+}
+.list_service a {
+	text-align: center;
+	color:#474141;
+
+}
+
+
+
+
+.list_service img {
+	width: 203px;
+	height: 203px;
+	border-radius:50%;
+	border: #474141 solid 1.5px;
+	object-fit: cover;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.list_service img:hover {
+	border: #996262 solid 1.5px;
+
+
+
+}
+.list_service li:hover{
+	margin-top: 23px;
+	transition: 0.3s;
+}
+.list_service a:hover{
+	color:#C55555;
+	transition: 0.3s;
+
+}
+
+
+.home-demo svg{
+
+border-radius: 5px;
+	height: 24px;
+	width: 24px;
+}
+
+
+.home-demo {
+  flex: 1 1 100px;
+  width: auto;
+
+}
+.item img{
+
+  flex: 1 1 100px;
+
+  height: 300px;
+  width: auto;
+}
+
+.item img{
+	display: block;
+}
+.home-demo h2{ text-align: center;
+	font-size: 2.1em;
+	padding-top: 4vw;
+	color:#FFFFFF;
+
+}
+.home-demo img{
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  margin-top: 5%;
+
+  font-weight: 300;
+}
+.home-slider {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service_button{
+	text-align: center;
+    background: rgba(100%, 97%, 100%, 0.5);
+	border:1.5px solid #FFFFFF;
+	width: 17vw;
+	height: 4vw;
+	margin-left: 40%;
+	border-radius: 20px;
+}
+.service_button a{
+	line-height: 4vw;
+	color:#FFFFFF;
+}
+.workers{
+	width: 100%;
+
+
+}
+.title_workers {
+	margin-left: 25%;
+	font-size: 1.9em;
+	color:#464040;
+}
+.title_workers svg{
+	border-radius: 5px;
+	width: 20px;
+	height: 20px;
+}
+.title_workers span{
+	border-bottom:1.5px solid #B41A1A;
+}
+
+.workers_element li svg{
+	width: 25px;
+	height: 25px;
+
+}
+.workers_element {
+	display: inline-block;
+	margin-top:5vw;
+	text-align: center;
+vertical-align: top;
+margin-left: 7%;
+
+}
+.workers_element li img{
+	border-radius: 50%;
+	width: 22vw;
+	height: 22vw;
+
+
+}
+
+.workers_element li{
+	font-size: 1.1em;
+
+	text-align: center;
+}
+.workers_element li a{
+
+	color:#453F3F;
+	border-bottom: 1px solid #6A6161;
+	padding-top: 0.7vw;
+}
+.our_client{
+	background-image: url(img/gray.jpg);
+	width: auto;
+	height: 27vw;
+}
+.our_client h2{
+	text-align: center;
+	line-height: 5vw;
+	font-size: 2em;
+}
+.our_client h2 span{
+	border-bottom: 1.5px solid #C13636;
+}
+.our_client h2 svg{
+	width: 23px;
+	height: 23px;
+	border-radius: 5px;
+}
+.our_client ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+
+
+}
+.our_client ul li{
+	display: flex;
+
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 4vw;
+
+
+
+
+
+}
+.our_client li img{
+	max-width: 14vw;
+	height: auto;
+}
+.our_advantage{
+	width: 100%;
+	height: 30vw;
+}
+.our_advantage svg{
+	width: 23px;
+	height: 23px;
+	border-radius: 5px;
+}
+.our_advantage h2{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+}
+.our_advantage li{text-align: center;
+width: 27%;margin: 15px;
+}
+
+.our_advantage ul{
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+
+}
+.header_element{
+	background-image: url(img/vostochnom-stile-kartinka.jpg);
+
+	background-size: cover;
+	width: 100%;
+
+
+}
+.information{
+	text-align: center;
+
+
+}
+.information h2{
+	color: #FFFFFF;
+	margin: 20px;
+	font-size: 2.5em;
+
+
+}
+.information h3{
+	color: #FFFFFF;
+	margin: 10px;
+
+
+}
+.inpas{ display: block;
+	padding-left: 41%;
+	padding-right: 41%;
+
+width:18%;
+}
+.inp input{
+
+
+}
+.input_element{
+	height: 8vw;
+	 background: rgb(2%, 0%, 0%, 0.5);
+	 color:#FFFFFF;
+	 margin-top: 10px;
+
+}
+.input_element_1{
+	border: 1px solid #D15A5A;
+	background: rgb(2%, 0%, 0%, 0.5);
+	color:#FFFFFF;
+}
+.mail_element{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.service_button:hover{
+	 background: #CA3838;
+	 border:1.5px solid #928C8C;
+	 transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 601px) {
+  .home-demo .item {
+    margin: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Проверка на поддержку свойства object-fit: */
+
+ @supports (object-fit: cover) {
+     #video-bg > video {
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+ }
+@media ( max-width: 500px ){
+	.ul_element {
+		display: none;}
+		#pull, {
+			display: block;
+
+		width: auto;}
+  .nav{ height: 50px;}
+	.in1 {width: 100px;height: 20px;}
+  .nav  {justify-content: space-between;}
+	.our_advantage ul{display: flex;
+	flex-direction: row;}
+
+}
+
+
+}
+@media ( max-width: 500px ){
+	.our_advantage ul{display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+	.title_h1 li{
+	height: 24px;
+	text-align: center;
+	display: block;
+	float: cente
+
+
+ }
+};
