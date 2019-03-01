@@ -300,9 +300,15 @@ ul .list_service{
 	transition: 0.3s;
 
 }
+.sect{
+
+    background-image: url(img/148952.jpg);
+	background-size: cover;
 
 
-.home-demo svg{
+}
+
+.home svg{
 
 border-radius: 5px;
 	height: 24px;
@@ -310,48 +316,41 @@ border-radius: 5px;
 }
 
 
-.home-demo {
-  flex: 1 1 100px;
-  width: auto;
+.home {
+flex: 1 1 500px;
 
 }
 .item img{
-
-  flex: 1 1 100px;
-
-  height: 400px;
-  width: auto;
+flex: 1 1 50px;
+height: 300px;
+width: auto;
 }
 
-.item img{
-	display: block;
-}
-.home-demo h2{ text-align: center;
+.home h2{
+	text-align: center;
 	font-size: 2.1em;
 	padding-top: 4vw;
-	color:#FFFFFF;
+	color:#FFFFFF;}
+.home img{
+text-align: center;
+padding: 5rem 0;
+margin: 0;
 
-}
-.home-demo img{
-  text-align: center;
-  padding: 5rem 0;
-  margin: 0;
-  margin-top: 5%;
-
-  font-weight: 300;
+font-weight: 300;
 }
 .home-slider {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+overflow: auto;
 }
 .service_button{
 	text-align: center;
-    background: rgba(100%, 97%, 100%, 0.5);
+background: rgba(100%, 97%, 100%, 0.5);
 	border:1.5px solid #FFFFFF;
 	width: 17vw;
 	height: 4vw;
-	margin-left: 40%;
+	margin: 0 auto;
 	border-radius: 20px;
 }
 .service_button a{
@@ -363,8 +362,8 @@ border-radius: 5px;
 
 
 }
-.title_workers {
-	margin-left: 25%;
+.title_workers ,.title_workers svg {
+	text-align: center;
 	font-size: 1.9em;
 	color:#464040;
 }
@@ -385,9 +384,9 @@ border-radius: 5px;
 .workers_element {
 	display: inline-block;
 	margin-top:5vw;
-	text-align: center;
-vertical-align: top;
-margin-left: 7%;
+ margin-left:7%;
+
+
 
 }
 .workers_element li img{
@@ -410,9 +409,9 @@ margin-left: 7%;
 	padding-top: 0.7vw;
 }
 .our_client{
-	background-color: grey;
+	background-image: url(img/gray.jpg);
 	width: auto;
-	height: 27vw;
+
 }
 .our_client h2{
 	text-align: center;
@@ -436,22 +435,11 @@ margin-left: 7%;
 
 
 }
-.our_client ul li{
-	display: flex;
 
-	flex-wrap: nowrap;
-	align-items: flex-start;
-	justify-content: center;
-	margin: 4vw;
-
-
-
-
-
-}
 .our_client li img{
-	max-width: 14vw;
+	width: 70px;
 	height: auto;
+	margin: 50px; ;
 }
 .our_advantage{
 	width: 100%;
@@ -598,38 +586,44 @@ width:18%;
 @media ( max-width: 500px ){
 	.ul_element {
 		display: none;}
-		#pull, {
-			display: block;
-
-		width: auto;}
-  .nav{ height: 50px;}
-	.in1 {width: 100px;height: 20px;}
-  .nav  {justify-content: space-between;}
-	.our_advantage ul{display: flex;
-	flex-direction: row;}
-
+		#pull, {display: block;width: auto;}
+.nav{ height: 50px;}
+.in1 {width: 100px;height: 20px;}
+.nav  {justify-content: space-between;}
+.our_advantage ul{display: flex;
+flex-direction: row;}
+.workers_element {margin-top:5vw;
+display: block;
+margin-top:5vw;
+margin-left:0%;}
+ .our_advantage ul{
+ display: flex;
+text-align: center;}
+ .our_advantage li{
+ display: flex;
+ text-align: center;}
+ .our_advantage li{text-align: center;
+width: 100%;margin: 15px;
+display: block;}
+.our_advantage h2{font-size: 1.5em;}
+.our_client ul{
+		display: block;
+		text-align: center;}
+		.our_client li img{
+		margin: 20px;}
+.our_client h2{
+	text-align: center;
+	line-height: 5vw;
+	font-size: 1.5em;
 }
-
-
+.our_client h2 span{
+	border-bottom: 1.5px solid #C13636;
 }
-@media ( max-width: 500px ){
-	.our_advantage ul{display: flex;
-flex-direction: row;
-flex-wrap: wrap;}
-
+.item img{
+flex: 1 1 100px;
+height: 180px;
+width: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
