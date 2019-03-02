@@ -213,9 +213,9 @@ height: 25px;
 .block_1{
 	  width: 100%; height:auto; ;background: #FFFFFF;
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
 	.block_1 {
-		height: 100%;
+		font-size: 0.8em;
 	}
 }
 
@@ -493,10 +493,10 @@ width: 27%;margin: 15px;
 
 }
 .inpas{ display: block;
-	padding-left: 41%;
-	padding-right: 41%;
+	margin-left: auto;
+	margin-right: auto;
+    width:18%;
 
-width:18%;
 }
 .inp input{
 
@@ -624,9 +624,31 @@ flex: 1 1 100px;
 height: 180px;
 width: auto;
 }
-
-
-
+.inpas{ display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width:70%;
+}
+.title_h1 h1{
+	color: #FFFFFF;
+	font-size: 1.8em;
+	font-weight: bold;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.title_h1 h2{
+	color: #FFFFFF;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.list_service {
+	display: block;
+	text-align: center;
+}
 
 
 }
