@@ -350,6 +350,8 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 overflow: auto;
+min-height: 580px;
+
 }
 .service_button{
 	text-align: center;
@@ -659,9 +661,14 @@ width: auto;
 .s {
 	display: none
 }
-
-
 }
+
+@media(max-height: 960px ){
+	.list_service{ width: unset;}
+}
+
+
+
 
 @media screen and (max-width: 800px) {
 	.title_h1 li{
