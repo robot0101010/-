@@ -29,8 +29,9 @@ a{
 .nav {flex-direction: row;
 display: flex;
 width: 100%;
+
 justify-content: center;
-height: 6.5%;
+height: 50px;
 margin: 0 auto;
 position: fixed;
 background-color: #282222;
@@ -226,8 +227,7 @@ height: 25px;
 .title_service{
 	text-align: center;
 	font-size: 1.9em;
-	width: 48vw;
-	margin: 0 auto;
+	
 
  }
  .title_service svg{ width: 23px;
@@ -240,8 +240,11 @@ height: 25px;
 }
 
 .list_service{
-	width: 100%;
+	
 	height: auto;
+	width: 960px;
+
+	margin: 0 auto;
 }
 
 .list_service {
@@ -649,6 +652,9 @@ width: auto;
 }
 .img1 {
 	display: none;
+}
+.s {
+	display: none
 }
 
 
