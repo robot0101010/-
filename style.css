@@ -309,7 +309,7 @@ ul .list_service{
 }
 .sect{
 
-    background-image: url(img/148952.jpg);
+    background-image: url(img/дляслайдера.jpg);
 	background-size: cover;
 
 
@@ -630,10 +630,13 @@ width: auto;
 	color: #FFFFFF;
 	font-size: 1.8em;
 	font-weight: bold;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	position: absolute;
+    top: 25%;
+    z-index: 99;
+    width: 100%;
+    text-align: center;
 }
+
 .title_h1 h2{
 	color: #FFFFFF;
 	font-size: 1.4em;
