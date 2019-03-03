@@ -30,7 +30,7 @@ a{
 display: flex;
 width: 100%;
 justify-content: center;
-height: 6%;
+height: 6.5%;
 margin: 0 auto;
 position: fixed;
 background-color: #282222;
@@ -55,9 +55,9 @@ text-align: center;
 }
 .nav ul{ width: 50%; margin: 2%;
 margin-top:16px;  }
-.in1 a{ margin-left: 2%; }
-.innnn,s {
-	display: inline-block;
+.in1 { margin-left: 2%; }
+.innnn {
+	display: block;
 
 
 }
@@ -68,7 +68,7 @@ margin-top: 10px;}
 	color: #BC0303;
 	font-size: 0.8em;
 	font-weight: bold;
-	padding-right: 2%;
+	padding-right: 4%;
 }
 .word_2{
 	color: #FFFFFF;
@@ -77,7 +77,8 @@ margin-top: 10px;}
 	font-weight: bold;
 }
 .word_2, .word_1 {
-margin: 2%;;
+
+margin-right: 25px;
 }
 
 
@@ -92,7 +93,7 @@ height: 25px;
 
  .img1{
  	height: 100%;
- 	margin-right: -15vw;
+ 	margin-left: -4vw;
  }
  .svf1{
  	width: 25px;
@@ -120,7 +121,10 @@ height: 25px;
  display: none;
 
    }
-
+#pull svg{
+	width: 10px;
+	height: 20px;
+}
 
 /* Стили для видеофона */
 
@@ -561,17 +565,6 @@ width: 27%;margin: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Проверка на поддержку свойства object-fit: */
 
  @supports (object-fit: cover) {
@@ -586,7 +579,8 @@ width: 27%;margin: 15px;
 @media ( max-width: 500px ){
 	.ul_element {
 		display: none;}
-		#pull, {display: block;width: auto;}
+		#pull, #pull img {display: block;width: auto;
+			margin-left:10px;}
 .nav{ height: 50px;}
 .in1 {width: 100px;height: 20px;}
 .nav  {justify-content: space-between;}
@@ -649,6 +643,13 @@ width: auto;
 	display: block;
 	text-align: center;
 }
+.nav svg{
+	width: 18px;
+	height: 18px;
+}
+.img1 {
+	display: none;
+}
 
 
 }
@@ -662,4 +663,9 @@ width: auto;
 
 
  }
-};
+}
+@media ( max-width: 340px ){
+	.nav svg{
+display: none;
+ }
+}
