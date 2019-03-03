@@ -220,4 +220,109 @@ margin-top: -20px;
 }
 .block_list ul,p{
 	color:#4B4949;
+	font-size: 1.1em;
 }
+
+.section_elements_one{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 4%;
+}
+
+.section_elements_one img{
+	width: 50%;
+	height: 35%;
+}
+.block_list_one{
+	margin: 15px;
+	font-size: 1.15em;
+}
+.section_elements_two{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 4%;
+}
+.block_list_two{
+	margin: 15px;
+	font-size: 1.15em;
+}
+.header_element{
+	background-image: url(img/vostochnom-stile-kartinka.jpg);
+
+	background-size: cover;
+	width: 100%;
+
+
+}
+.information{
+	text-align: center;
+
+
+}
+.information h2{
+	color: #FFFFFF;
+	margin: 20px;
+	font-size: 2.5em;
+
+
+}
+.information h3{
+	color: #FFFFFF;
+	margin: 10px;
+
+
+}
+.inpas{ display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width:18%;
+
+}
+.inp input{
+
+
+}
+.input_element{
+	height: 8vw;
+	 background: rgb(2%, 0%, 0%, 0.5);
+	 color:#FFFFFF;
+	 margin-top: 10px;
+
+}
+.input_element_1{
+	border: 1px solid #D15A5A;
+	background: rgb(2%, 0%, 0%, 0.5);
+	color:#FFFFFF;
+}
+@media(min-width: 500px;){
+.ul_element  {
+		display: none;
+		background: #454444;
+		widows: 250px;
+		margin-top:30px;
+	}
+		#pull, #pull img {display: block;width: auto;
+			margin-left:10px;
+			cursor:pointer;}
+			.ul_element li{
+				width: 130px;
+				height: auto;
+				padding: 10px;
+				background: #2B2828;
+				margin: 0 auto;
+				
+
+			}
+
+.nav{ height: 50px;}
+.in1 {width: 100px;height: 20px;}
+.nav  {justify-content: space-between;}
+.service_two li {
+		display: flex;
+
+	}
+}
+
+

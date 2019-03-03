@@ -585,30 +585,29 @@ width: 27%;margin: 15px;
      }
  }
 @media ( max-width: 500px ){
-	.ul_element {
-		display: none;}
+	.ul_element  {
+		display: none;
+		background: #454444;
+		widows: 250px;
+		margin-top:30px;
+	}
 		#pull, #pull img {display: block;width: auto;
 			margin-left:10px;
 			cursor:pointer;}
-			#pull i{
-				display:block;
-     width:30px;
-     height:6px;
-     margin:4px auto;
-     background:#222;
+			.ul_element li{
+				width: 130px;
+				height: auto;
+				padding: 10px;
+				background: #2B2828;
+				margin: 0 auto;
+				
+
 			}
+
+			
+			
 			.show{
-     display:block;
-   }
-
-
-
-
-
-
-
-
-
+     display:block;}
 .nav{ height: 50px;}
 .in1 {width: 100px;height: 20px;}
 .nav  {justify-content: space-between;}

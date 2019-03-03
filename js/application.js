@@ -14,3 +14,12 @@ $(document).ready(function(){
     });
     
 });
+$(document).ready(function(){
+	$("#pull").click(function(){
+    $(".ul_element").slideToggle(300)
+    $(".ssssss").css("font-size","0.7em");
+	});
+
+	
+     
+});
