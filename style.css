@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
 	margin: 0;
 	padding: 0;
@@ -54,7 +55,7 @@ text-align: center;
 text-align: center;
 
 }
-.nav ul{ width: 50%; margin: 2%;
+.nav ul{ width: 20vw; margin: 2%;
 margin-top:16px;  }
 .in1 { margin-left: 2%; }
 .innnn {
@@ -243,8 +244,7 @@ height: 25px;
 	
 	height: auto;
 	width: 960px;
-
-	margin: 0 auto;
+   margin: 0 auto;
 }
 
 .list_service {
@@ -351,6 +351,8 @@ justify-content: space-between;
 flex-wrap: wrap;
 overflow: auto;
 min-height: 580px;
+
+
 }
 .home-slider img{
 	min-height: 450px;
@@ -424,6 +426,7 @@ background: rgba(100%, 97%, 100%, 0.5);
 	background-image: url(img/gray.jpg);
 	width: auto;
 
+
 }
 .our_client h2{
 	text-align: center;
@@ -438,20 +441,27 @@ background: rgba(100%, 97%, 100%, 0.5);
 	height: 23px;
 	border-radius: 5px;
 }
+
+.our_client ul{
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
 .our_client ul{
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
-
-
+        
 
 }
 
 .our_client li img{
 	width: 70px;
 	height: auto;
-	margin: 50px; ;
+	
 }
 .our_advantage{
 	width: 100%;
@@ -627,9 +637,13 @@ text-align: center;}
 width: 100%;margin: 15px;
 display: block;}
 .our_advantage h2{font-size: 1.5em;}
+.our_client ul{ margin: 0 auto; padding-top: 50px;padding-bottom: 50px; }
 .our_client ul{
-		display: block;
-		text-align: center;}
+	    width: 200px;
+		display: flex;
+		flex-wrap: wrap;
+		;
+	}
 		.our_client li img{
 		margin: 20px;}
 .our_client h2{
@@ -713,4 +727,305 @@ display: none;
 .home-slider img {
 min-height: 300px;
 }
+}
+.background_one{
+	background-size: cover;
+	width: 100%;
+	height: 70%;
+
+}
+.title_d{
+	text-align: center;
+	font-size: 2.5em;
+	color: #323131;
+}
+
+
+.service_two div{
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+    min-width: 25%;
+	margin-left: 5%;
+    
+	border: 1.5px solid #F5F3F3;
+	border-radius: 10px;
+	
+	padding: 15px;
+	font-size: 0.65em;
+	background: #ECE8E8;
+	letter-spacing:2px;
+	
+
+}
+.service_two img{
+	width: 100px;
+	height: 70px;
+	background-size: cover;
+	position: relative;
+	}
+
+.service_two h2 {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	color:#454343;
+
+
+
+}
+.service_two li{
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 20px;
+}
+.service_two p{
+	margin: 10px;
+	margin-right: 10%;
+	letter-spacing:0.5px;
+	font-family: 'Raleway', sans-serif;
+}
+.back_button img{
+background-size: cover;
+margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+position: absolute;
+margin-top: 25px;
+
+}
+
+#btn_modal_window{
+	position: relative;
+	width: 20%;
+	margin-left:40%;
+	margin-right: 40%;
+	margin-top: 15px;
+	text-align: 100;
+	border: 0.1px solid #B82323;
+	background: #B82323;
+	border-radius: 10px;
+	padding: 5px;
+	color:#FFFFFF;
+	font-size: 1.3em;
+	cursor: pointer; 
+
+	
+	
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:  rgba(0,0,0,0.75);
+}
+
+.modal .modal_content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal .modal_content .close_modal_window {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.section_elements{
+	margin: 25px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.section_elements img{
+	width: 40%;
+	height: 27%;
+}
+.block_list , .section_elements img{
+	margin-left: 24px;
+	list-style-type: none;
+}
+.block_list {
+	margin-right: 24px;
+}
+.block_list ul,p{
+	color:#4B4949;
+	font-size: 1.1em;
+}
+
+.section_elements_one{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 4%;
+}
+
+.section_elements_one img{
+	width: 50%;
+	height: 35%;
+}
+.block_list_one{
+	margin: 15px;
+	font-size: 1.15em;
+}
+.section_elements_two{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 4%;
+}
+.block_list_two{
+	margin: 15px;
+	font-size: 1.15em;
+}
+.header_element{
+	background-image: url(img/vostochnom-stile-kartinka.jpg);
+
+	background-size: cover;
+	width: 100%;
+
+
+}
+.information{
+	text-align: center;
+
+
+}
+.information h2{
+	color: #FFFFFF;
+	margin: 20px;
+	font-size: 2.5em;
+
+
+}
+.information h3{
+	color: #FFFFFF;
+	margin: 10px;
+
+
+}
+.inpas{ display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width:18%;
+
+}
+.inp input{
+
+
+}
+.input_element{
+	height: 8vw;
+	 background: rgb(2%, 0%, 0%, 0.5);
+	 color:#FFFFFF;
+	 margin-top: 10px;
+
+}
+.input_element_1{
+	border: 1px solid #D15A5A;
+	background: rgb(2%, 0%, 0%, 0.5);
+	color:#FFFFFF;
+}
+@media (max-width: 500px){
+.ul_element  {
+		display: none;
+		background: #454444;
+		widows: 250px;
+		margin-top:30px;
+	}
+		#pull, #pull img {display: block;width: auto;margin-left:10px;cursor:pointer;}
+		.ul_element li{
+		width: 130px;
+		height: auto;
+		padding: 10px;
+		background: #2B2828;
+		margin: 0 auto;
+		}
+
+.nav{ height: 50px;}
+.in1 {width: 100px;height: 20px;}
+.nav  {justify-content: space-between;}
+            .service_two li{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: stretch;
+			font-size: 0.8em;
+		}
+		.service_two div{
+	
+	
+    width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+    
+	border: 1.5px solid #F5F3F3;
+	border-radius: 10px;
+	
+	padding: 15px;
+	font-size: 0.65em;
+	background: #ECE8E8;
+	letter-spacing:0.5px;
+	
+
+}
+.service_two p{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.back_button img{
+	display: none;
+}
+#button_ser{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.section_elements{
+	display: block;
+
+}
+.section_elements img{
+	width: 350px;
+	height: auto;
+}
+.section_elements_one{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: stretch;}
+.section_elements_one img{
+	width: 380px;
+    height: 220px;}
+.section_elements_two{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.section_elements_two img{
+	width: 350px;
+	height: auto;
+}
+
+
 }

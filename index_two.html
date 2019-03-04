@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Стройка64</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style_two.css" type="text/css"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
 </head>
 <body>
 <section>
@@ -103,7 +104,32 @@
 		<li><div><img src="2/покраска.jpg"><h2>ПОКРАСКА</h2></div><p>К каждому клиенту компания доступный ремонт имеет свой подход, в связи с этим готовы предложить Вам покраску стен и потолков - идеальное решение для тех, кто не желает иметь крупные расходы при выполнении отделочных работ в квартире.</p></li>
 		<li><div><img src="2/декрштукатурка.jpg"><h2>ДЕКОРАТИВНАЯ<br>ШТУКАТУРКА</h2></div><p>Покрытие стен декоративной штукатуркой – интересный процесс, позволяющий воплотить в жизнь любые задумки и дать волю фантазии. Здесь крайне важно соблюдать технологию процесса, дабы получить желаемый результат.</p></li>
 	</ul>
-	<div class="back_button"><img src="2/full-page-divider.png"><button id="button_ser" type="">Узнать цены и получить скидку</button> 
+
+
+
+
+
+
+
+	<div class="back_button"><img src="2/full-page-divider.png"><button id="btn_modal_window">Узнать цены и получить скидку</button></div><!--внешка-->
+  
+
+ <div id="my_modal" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window">&times;</span>
+      <p>Модальное окно!</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
 </section>
 <section>
 	<div class="section_elements">
@@ -151,3 +177,32 @@
   </div>
 
 </section>
+</div>
+
+
+
+<script>
+  var modal = document.getElementById("my_modal");
+var btn = document.getElementById("btn_modal_window");
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+modal.onclick = function () {
+    modal.style.display = "none";
+}
+
+//клик вокруг модального окна
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+  
+</body>
+</html>
