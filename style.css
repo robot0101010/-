@@ -555,10 +555,6 @@ width: 27%;margin: 15px;
 	background: rgb(2%, 0%, 0%, 0.5);
 	color:#FFFFFF;
 }
-.mail_element{
-
-}
-
 
 
 
@@ -1067,6 +1063,113 @@ margin-left: 15px;
 	background: rgb(2%, 0%, 0%, 0.5);
 	color:#FFFFFF;
 }
+
+
+.title_examples{
+	text-align: center;
+	color: #888585;
+	padding-top: 5px;
+}
+.flex_info{
+	display: flex;
+	
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+
+}
+.discount{
+	
+	 width: 280px;
+	height: 35px;
+	padding: 4px;
+	color: #FFFFFF;
+	background: #DC3B2F;
+	border: 1.5px solid #943333;
+	border-radius: 15px;
+	font-size: 1.15em;
+}
+.discount:hover{
+	transition: 0.2s;
+	background: #272525;
+	cursor: pointer;
+}
+
+.svg_discount svg{
+	width: 25px;
+	height: 25px; 
+
+}
+.svg_discount svg, img{
+	margin-top: 5px;
+	margin: 1.5px;
+}
+
+
+
+
+
+
+
+.back_four{
+	
+	max-width: 960px;height: auto;
+	text-align: center;
+}
+
+.about_company{ 
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+.about_company h2{
+	text-align: center;
+	color:#6A6464;
+}
+.about_company p{
+ font-size: 0.94em;
+}
+.about_company ul{
+ color: #6A6464;
+ list-style: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+	.back_four{
+	
+ width: 50px;
+}
+}
+
+
 @media (max-width: 500px) {
     .modal .modal_content {
 
